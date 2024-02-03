@@ -1,0 +1,49 @@
+.container{
+    width: 85%;
+    margin: 0px auto;
+}
+
+header{
+    padding: 20px 0px;
+    background-color:  rgb(219, 211, 211);
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.a{
+    text-decoration: none;
+    color: #82aeff;
+}
+
+.child-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+}
+.child-1 img{
+    filter: invert(1);
+
+}
+
+.child-2 a{
+    padding: 10px 20px;
+}  
+#logoImage{
+    width: 120px;
+    height: 120px;
+    border: #82aeff;
+    /* background-color: rgb(7, 238, 150); */
+    z-index: 11;
+    display: inline-block;
+
+}
